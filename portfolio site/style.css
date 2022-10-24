@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 10vh;
+    background-color: rgb(139, 173, 233);
+    padding: 15px;
+    
+}
+p{
+    font-size: 32px;
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-stretch: expanded;
+    align-self: center;
+    color: white;
+}
+.links{
+align-self: center;
+}
+a{  color: white;
+    margin-right: 5px;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.projectsIntro{
+    margin-bottom: 20px;
+}
+.intro{
+    
+    background-color: rgb(119, 219, 120);
+    padding: 15px;
+}
+.heading{
+    text-align: center;
+}
+.project{
+    background-color: rgb(197, 127, 255);
+    padding: 15px;
+}
+.footer{
+    height: 10vh;
+    background-color: rgb(74, 58, 58);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.foolink{
+    background-color: rgb(114, 98, 98);
+
+}
+.projectLink{
+    padding: 10px;
+    background-color: blue;
+    
+}
